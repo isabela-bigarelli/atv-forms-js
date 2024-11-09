@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+            <label id="nomelbl">Nome</label>
+            <input type="text" id="nome">
+
+            <label id="enderecolbl">Endereço</label>
+            <input type="text" id="endereco">
+
+            <label id="ceplbl">CEP</label>
+            <input type="text" id="CEP" oninput=mascara_cep() maxlength="10" placeholder="xx.xxx-xxx">
+            
+            <label id="cpflbl">CPF</label>
+            <input type="text" id="CPF" placeholder="xxx.xxx.xxx-xx" oninput=mascara_cpf() maxlength="14">
+           
+            <label id="telefonelbl">Telefone</label>
+            <input type="tel" id="telefone" oninput=mascara_telefone() maxlength="14" placeholder="(31) 9 9999-9999">
+           
+       
+            <label id="cnpjlbl">CNPJ</label>
+            <input type="text" id="cnpj" placeholder="XX.XXX.XXX/0001-XX" oninput=mascara_cnpj() maxlength="18">
+
+            <label id="codigolbl">Código</label>
+            <input type="text" id="codigo" placeholder="xx_xx//xxx-xxx.9.xxx" oninput=mascara_codigo() maxlength="20">
+
+           
+            <a href="dados.html">
+                 <input type="submit" value="ENVIAR" id="enviar">
+             </a>
+
+        </div>
+    </main>
+    <script src="forms.js"></script>
+</body>
+</html>

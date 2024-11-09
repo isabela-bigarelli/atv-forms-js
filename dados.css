@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 0.5fr 0.1fr 1fr 0.5fr;
+    grid-template-rows: 50px 30px 50px 30px 50px 30px 50px 30px 50px 30px 50px 30px 50px 30px 50px;
+    margin-top: 50px;
+}
+
+#recebe_nome{
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+#recebe_endereco{
+    grid-column: 3/4;
+    grid-row: 3;
+}
+
+#recebe_cep{
+    grid-column: 3/4;
+    grid-row: 5;
+}
+
+#recebe_cpf{
+    grid-column: 3/4;
+    grid-row: 7;
+}
+
+#recebe_telefone{
+    grid-column: 3/4;
+    grid-row: 9;
+}
+
+#recebe_cnpj{
+    grid-column: 3/4;
+    grid-row: 11;
+}
+
+#recebe_codigo{
+    grid-column: 3/4;
+    grid-row: 13;
+}
+
+
+main div{
+    width: 100%;
+}
+
+main input{
+    width: 100%;
+    height: 100%;
+}
+
+#nomelbl{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+#enderecolbl{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+#ceplbl{
+    grid-column: 2/3;
+    grid-row: 5;
+}
+
+#cpflbl{
+    grid-column: 2/3;
+    grid-row: 7;
+}
+
+#telefonelbl{
+    grid-column: 2/3;
+    grid-row: 9;
+}
+
+#cnpjlbl{
+    grid-column: 2/3;
+    grid-row: 11;
+}
+
+#codigolbl{
+    grid-column: 2/3;
+    grid-row: 13;
+}
+
+main label{
+    margin-top: 10px;
+
+}
+
+
